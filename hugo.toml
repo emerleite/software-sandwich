@@ -1,4 +1,4 @@
-baseURL = "https://blog.emerleite.com/"
+baseURL = "https://emerleite.github.io/software-sandwich/"
 languageCode = "en-us"
 title = "Software Sandwich"
 paginate = 10

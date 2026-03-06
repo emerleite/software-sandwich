@@ -5,8 +5,8 @@
   },
   "repo": "emerleite/software-sandwich",
   "title": "Software Sandwich",
-  "domain": "blog.emerleite.com",
-  "pagesUrl": "https://blog.emerleite.com/",
+  "domain": "",
+  "pagesUrl": "https://emerleite.github.io/software-sandwich/",
   "imported": {
     "https://blog.emerleite.com/full-video-the-conf-brasil-2017-4dd7e0303f7a": {
       "slug": "full-video-the-conf-brasil-2017",
