@@ -7,5 +7,21 @@
   "title": "Software Sandwich",
   "domain": "blog.emerleite.com",
   "pagesUrl": "https://blog.emerleite.com/",
-  "imported": {}
+  "imported": {
+    "https://blog.emerleite.com/full-video-the-conf-brasil-2017-4dd7e0303f7a": {
+      "slug": "full-video-the-conf-brasil-2017",
+      "hash": "e994ba43f44a4083",
+      "importedAt": "2026-03-05T22:38:37.355194-03:00"
+    },
+    "https://blog.emerleite.com/my-talk-at-ruby-conf-brazil-2017-30422b57971d": {
+      "slug": "my-talk-at-ruby-conf-brazil-2017",
+      "hash": "343fa008ce8af4c4",
+      "importedAt": "2026-03-05T22:38:37.300077-03:00"
+    },
+    "https://blog.emerleite.com/using-elixir-genstage-to-track-video-watch-progress-9b114786c604": {
+      "slug": "using-elixir-genstage-to-track-video-watch-progress",
+      "hash": "80eafc99765b09d3",
+      "importedAt": "2026-03-05T22:38:37.279802-03:00"
+    }
+  }
 }
