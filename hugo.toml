@@ -1,6 +1,7 @@
 baseURL = "https://emerleite.com/software-sandwich/"
 languageCode = "en-us"
 title = "Software Sandwich"
+theme = "PaperMod"
 paginate = 10
 enableRobotsTXT = true
 buildDrafts = false
