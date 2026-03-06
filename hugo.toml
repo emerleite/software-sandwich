@@ -1,25 +1,22 @@
 baseURL = "https://emerleite.com/software-sandwich/"
-languageCode = "en-us"
 title = "Software Sandwich"
-theme = "PaperMod"
-[pagination]
-  pagerSize = 10
+languageCode = "en-us"
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
+
+[module]
+[[module.imports]]
+path = "github.com/imfing/hextra"
 
 [params]
-  env = "production"
-  description = "Software Sandwich"
-  ShowReadingTime = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = true
+themeColor = "blue"
 
-[outputs]
-  home = ["HTML", "RSS", "JSON"]
+[menu]
+[[menu.main]]
+name = "Home"
+pageRef = "/"
+weight = 1
 
-[markup.highlight]
-  style = "monokai"
-  noClasses = false
+[[menu.main]]
+name = "Blog"
+pageRef = "/posts"
+weight = 2
