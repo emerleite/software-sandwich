@@ -1,0 +1,23 @@
+baseURL = "https://blog.emerleite.com/"
+languageCode = "en-us"
+title = "Software Sandwich"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+
+[params]
+  env = "production"
+  description = "Software Sandwich"
+  ShowReadingTime = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[markup.highlight]
+  style = "monokai"
+  noClasses = false

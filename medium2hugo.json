@@ -1,0 +1,11 @@
+{
+  "source": {
+    "type": "publication",
+    "name": "blog.emerleite.com"
+  },
+  "repo": "emerleite/software-sandwich",
+  "title": "Software Sandwich",
+  "domain": "blog.emerleite.com",
+  "pagesUrl": "https://blog.emerleite.com/",
+  "imported": {}
+}
