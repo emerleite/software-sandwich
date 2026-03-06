@@ -5,18 +5,37 @@
   },
   "repo": "emerleite/software-sandwich",
   "title": "Software Sandwich",
-  "domain": "",
   "pagesUrl": "https://emerleite.com/software-sandwich/",
   "imported": {
+    "https://blog.emerleite.com/elixir-video-user-profile-service-for-the-olympics-application-teardown-56ac3e103d1a": {
+      "slug": "elixir-video-user-profile-service-for-the-olympics-application-teardown",
+      "hash": "8a917686c3d05618",
+      "importedAt": "2026-03-06T10:24:49.002032-03:00"
+    },
     "https://blog.emerleite.com/full-video-the-conf-brasil-2017-4dd7e0303f7a": {
       "slug": "full-video-the-conf-brasil-2017",
       "hash": "e994ba43f44a4083",
       "importedAt": "2026-03-05T22:38:37.355194-03:00"
     },
+    "https://blog.emerleite.com/how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics-dd7fbba1ad4e": {
+      "slug": "how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics",
+      "hash": "d6d7699616e88c4c",
+      "importedAt": "2026-03-06T10:24:50.623931-03:00"
+    },
+    "https://blog.emerleite.com/my-talk-at-qcon-sp-2016-c1ee671e1108": {
+      "slug": "my-talk-at-qcon-sp-2016",
+      "hash": "922a374bbebbdb1b",
+      "importedAt": "2026-03-06T10:24:50.646902-03:00"
+    },
     "https://blog.emerleite.com/my-talk-at-ruby-conf-brazil-2017-30422b57971d": {
       "slug": "my-talk-at-ruby-conf-brazil-2017",
       "hash": "343fa008ce8af4c4",
       "importedAt": "2026-03-05T22:38:37.300077-03:00"
+    },
+    "https://blog.emerleite.com/my-talk-at-the-conf-brazil-2017-d4999de82325": {
+      "slug": "my-talk-at-the-conf-brazil-2017",
+      "hash": "eae4acda84ad3ea0",
+      "importedAt": "2026-03-06T10:24:47.412766-03:00"
     },
     "https://blog.emerleite.com/using-elixir-genstage-to-track-video-watch-progress-9b114786c604": {
       "slug": "using-elixir-genstage-to-track-video-watch-progress",
