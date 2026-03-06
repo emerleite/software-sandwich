@@ -14,7 +14,7 @@ medium:
     originalUrl: https://blog.emerleite.com/how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics-dd7fbba1ad4e
 ---
 
-![](images/1_0REzhYroGlvwIYyPVIgPtw.png)
+![](https://cdn-images-1.medium.com/max/1024/1*0REzhYroGlvwIYyPVIgPtw.png)
 
 ### How Elixir helped us scale our Video User Profile Service for the Olympics
 
@@ -28,11 +28,11 @@ I work at [Globo.com](http://globo.com) with Online Video. [Globo.com](http://gl
 
 3 months ago, we inherited a well written Ruby on Rails application, called User Profile API, a software responsible for giving our Online Video Products, [Globo Play](http://globoplay.globo.com) and [Globosat Play](http://globosatplay.globo.com) a logged experience, so the user can mark a video to watch later, adds to favorites, continue watching when it stopped, store preferences, etc. With the user proactive actions, we also have a notification about the watch progress on every 10 seconds, so we can provide the keep watching function on any device. Here are some screenshots:
 
-![](images/1_xhKAzJG45GiTKwI1uxEcuA.png)
+![](https://cdn-images-1.medium.com/max/495/1*xhKAzJG45GiTKwI1uxEcuA.png)
 
 Globo Play add to favorites
 
-![](images/1_NdxrvGjXwYDyTHvoKqQpCg.png)
+![](https://cdn-images-1.medium.com/max/312/1*NdxrvGjXwYDyTHvoKqQpCg.png)
 
 Globosat Play keep watching
 
@@ -56,13 +56,13 @@ After we decided to try Elixir, we took a look at New Relic metrics and we saw t
 
 Without metrics, it's useless to compare two versions of the same software. So, in the Ruby version, here is the [New Relic](https://newrelic.com/) screenshot for the route we rewrote:
 
-![](images/1_kOOwWCFvhEaZnPACBQAQgQ.png)
+![](https://cdn-images-1.medium.com/max/960/1*kOOwWCFvhEaZnPACBQAQgQ.png)
 
 Unfortunately, New Relic only preserves percentiles for the last 7 days, and we missed these screenshots, but we can see that **the max response time was around 4 seconds, we have notes about the 95 and 99 was around 500ms and 1.5s respectively**. We all know that is a big problem for Ruby, because it blocks the entry process until the round-trip is finished.
 
 For the Elixir version, we do not have New Relic Agent yet, so we did an Ad-hoc solution, using Exometer + Logstash + Grafana. I'll explain it in the article about the implementation details. Here are the results:
 
-![](images/1_9Q3NDn21GRDMdjZrImrwKQ.png)
+![](https://cdn-images-1.medium.com/max/1024/1*9Q3NDn21GRDMdjZrImrwKQ.png)
 
 After this rewrite, the performance for the same throughput went **from ~40ms in avg to ~4ms in avg**.
 
@@ -79,9 +79,3 @@ Elixir is production ready since 2 years ago. The Erlang BEAM VM is safe and mat
 ### Update
 
 I already wrote [the teardown article](https://blog.emerleite.com/elixir-video-user-profile-service-for-the-olympics-application-teardown-56ac3e103d1a).
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=dd7fbba1ad4e)
-
-* * *
-
-[How Elixir helped us to scale our Video User Profile Service for the Olympics](https://blog.emerleite.com/how-elixir-helped-us-to-scale-our-video-user-profile-service-for-the-olympics-dd7fbba1ad4e) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.

@@ -56,7 +56,7 @@ With the Functional Programming paradigm, Elixir also has the [OTP](http://learn
 
 An important change migrating the Ruby POST endpoint to Elixir was no longer needing a [Resque Application](http://resque.github.io/) to deal with [Async Tasks](https://en.wikipedia.org/wiki/Asynchronous_method_invocation). With this change, **we removed 20 docker containers**, responsible for dealing with *Update Counter Job*. Elixir has the [Task Module](http://elixir-lang.org/docs/stable/elixir/Task.html), which provides us [Async Tasks](https://en.wikipedia.org/wiki/Asynchronous_method_invocation), with the option to be supervised, in the case of failure. Combined with [Poolboy](https://github.com/devinus/poolboy), we can throttle the throughput of *Update Counter Job* using a [Pool of Objects](https://en.wikipedia.org/wiki/Object_pool_pattern). The main difference from the Ruby solution is that everything is part of Elixir and OTP architecture, which is very tested and mature. That's the final result:
 
-![](images/1_0ap0_B--vlxsGAytSuHcrg.png)
+![](https://cdn-images-1.medium.com/max/451/1*0ap0_B--vlxsGAytSuHcrg.png)
 
 With Elixir, we do not need Resque anymore
 
@@ -91,9 +91,3 @@ After I wrote the [first article](https://medium.com/software-sandwich/how-elixi
 ### Update
 
 In 2017, we [rewrote the core engine using GenStage](https://blog.emerleite.com/using-elixir-genstage-to-track-video-watch-progress-9b114786c604).
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=56ac3e103d1a)
-
-* * *
-
-[Elixir Video User Profile Service for the Olympics — Application teardown](https://blog.emerleite.com/elixir-video-user-profile-service-for-the-olympics-application-teardown-56ac3e103d1a) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.

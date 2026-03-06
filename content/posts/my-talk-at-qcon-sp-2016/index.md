@@ -18,12 +18,8 @@ Recently I gave a talk at QCon SP about our Online Video Authorization system fo
 
 The talk was about our problems with high throughput and bottlenecks during the brazilian national championship, explaining the changes we made to keep our software performing well, with a good user experience to our PayTV customers.
 
+{{< slideshare src="https://www.slideshare.net/slideshow/embed_code/key/F98SkS5ZlvKYbU" url="http://www.slideshare.net/emerleite/qcon-sp-2016-video-authorization-from-chaos-to-25ms-response-time" >}}
+
 There is also a video (in portuguese) published at InfoQ Brazil.
 
 [Autorização de vídeos no Globosat Play: do caos aos 25ms de tempo de resposta](https://www.infoq.com/br/presentations/autorizacao-de-videos-no-globosat-play)
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=c1ee671e1108)
-
-* * *
-
-[My talk at QCon SP 2016](https://blog.emerleite.com/my-talk-at-qcon-sp-2016-c1ee671e1108) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.

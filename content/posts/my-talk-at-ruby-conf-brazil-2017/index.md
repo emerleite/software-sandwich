@@ -22,8 +22,4 @@ On these scenarios, I believe most of the time your application can have a valid
 
 Slides below:
 
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=30422b57971d)
-
-* * *
-
-[My talk at Ruby Conf Brazil 2017](https://blog.emerleite.com/my-talk-at-ruby-conf-brazil-2017-30422b57971d) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.
+{{< slideshare src="https://www.slideshare.net/slideshow/embed_code/key/puuqltdFcHp461" url="https://www.slideshare.net/emerleite/how-your-app-behaves-when-everything-goes-wrong-ruby-conf-br-2017" >}}

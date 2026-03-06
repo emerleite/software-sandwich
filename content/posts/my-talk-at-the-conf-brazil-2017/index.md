@@ -22,8 +22,4 @@ The video will soon be available.
 
 Slides below:
 
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=d4999de82325)
-
-* * *
-
-[My talk at The Conf Brazil 2017](https://blog.emerleite.com/my-talk-at-the-conf-brazil-2017-d4999de82325) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.
+{{< slideshare src="https://www.slideshare.net/slideshow/embed_code/key/5QECiXpIPdJsKa" url="https://www.slideshare.net/emerleite/beyond-your-daily-coding-the-conf-brazil-2017-keynote" >}}

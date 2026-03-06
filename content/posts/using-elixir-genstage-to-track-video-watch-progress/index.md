@@ -105,9 +105,3 @@ The new throughput peak
 ### Conclusion
 
 After this architectural change, we preserved the same amount of computation units. In the end, proved to ourselves [GenStage](https://hexdocs.pm/gen_stage/GenStage.html) provides great building blocks to solve this class of problems. We're also using it for other use cases too, and I'll surely talk about these other ones in another opportunity. For now, my conclusion is that [GenStage](https://hexdocs.pm/gen_stage/GenStage.html) is a good fit if you are working with Elixir and need to process something with back-pressure and load-shedding control.
-
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=9b114786c604)
-
-* * *
-
-[Using Elixir GenStage to track Video Watch Progress](https://blog.emerleite.com/using-elixir-genstage-to-track-video-watch-progress-9b114786c604) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.

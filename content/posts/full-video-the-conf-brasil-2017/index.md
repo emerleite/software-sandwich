@@ -20,8 +20,4 @@ It was the first time I presented in english for Brazilian audience, and It's a 
 
 If you have patience, It's a great story.
 
-![](https://medium.com/_/stat?event=post.clientViewed&referrerSource=full_rss&postId=4dd7e0303f7a)
-
-* * *
-
-[Full Video — The Conf Brasil 2017](https://blog.emerleite.com/full-video-the-conf-brasil-2017-4dd7e0303f7a) was originally published in [Software Sandwich](https://blog.emerleite.com) on Medium, where people are continuing the conversation by highlighting and responding to this story.
+{{< youtube m0N2mSKhvgM >}}
