@@ -34,7 +34,10 @@ jobs:
         id: pages
         uses: actions/configure-pages@v5
       - name: Build
-        run: hugo --gc --minify --baseURL "${{ steps.pages.outputs.base_url }}/"
+        run: |
+          BASE_URL="${{ steps.pages.outputs.base_url }}"
+          BASE_URL="${BASE_URL/http:\/\//https:\/\/}"
+          hugo --gc --minify --baseURL "${BASE_URL}/"
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
