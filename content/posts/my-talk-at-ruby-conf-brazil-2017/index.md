@@ -1,6 +1,7 @@
 ---
 title: My talk at Ruby Conf Brazil 2017
 date: "2017-11-22T18:35:57Z"
+weight: 2
 tags:
     - elixir
     - ruby

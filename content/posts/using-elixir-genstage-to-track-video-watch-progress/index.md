@@ -1,6 +1,7 @@
 ---
 title: Using Elixir GenStage to track Video Watch Progress
 date: "2018-02-02T21:48:58Z"
+weight: 1
 tags:
     - genstage
     - elixir

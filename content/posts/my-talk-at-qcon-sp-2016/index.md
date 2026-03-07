@@ -1,6 +1,7 @@
 ---
 title: My talk at QCon SP 2016
 date: "2016-08-24T18:00:35Z"
+weight: 7
 tags:
     - tv-everywhere
     - talks

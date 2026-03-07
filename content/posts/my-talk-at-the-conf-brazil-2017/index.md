@@ -1,6 +1,7 @@
 ---
 title: My talk at The Conf Brazil 2017
 date: "2017-10-25T23:14:14Z"
+weight: 4
 tags:
     - ruby
     - the-conf

@@ -1,6 +1,7 @@
 ---
 title: How Elixir helped us to scale our Video User Profile Service for the Olympics
 date: "2016-09-02T04:03:24Z"
+weight: 6
 tags:
     - software-development
     - ruby-on-rails

@@ -1,6 +1,7 @@
 ---
 title: Elixir Video User Profile Service for the Olympics — Application teardown
 date: "2016-09-21T17:39:46Z"
+weight: 5
 tags:
     - elixir
     - software-development

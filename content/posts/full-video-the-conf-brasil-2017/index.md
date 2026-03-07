@@ -1,6 +1,7 @@
 ---
 title: Full Video — The Conf Brasil 2017
 date: "2017-11-09T11:45:51Z"
+weight: 3
 tags:
     - software
     - ruby
